@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_note_item">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_marginBottom="1dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/icon_for_priority_note"
+            android:id="@+id/item_note_icon"
+            android:src="@drawable/ic_1st_priority"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/item_note_icon"
+            android:layout_centerVertical="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:id="@+id/item_note_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Kontrak - Amin Fahrudin"/>
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:id="@+id/item_note_icon_date"
+                android:src="@drawable/ic_date_range"
+                app:tint="@android:color/tertiary_text_light"
+                android:layout_below="@+id/item_note_title"
+                android:contentDescription="@string/icon_for_priority_note"
+                android:layout_marginStart="4dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/tertiary_text_light"
+                android:layout_marginStart="2dp"
+                android:id="@+id/item_note_deadline"
+                android:layout_alignTop="@+id/item_note_icon_date"
+                android:layout_toEndOf="@+id/item_note_icon_date"
+                android:layout_alignBottom="@+id/item_note_icon_date"
+                android:gravity="center_vertical"
+                android:text="18-Oct-2020"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "319698827214",
+    "firebase_url": "https://hrd-reminder.firebaseio.com",
+    "project_id": "hrd-reminder",
+    "storage_bucket": "hrd-reminder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319698827214:android:975f10a150a3e08444dd9f",
+        "android_client_info": {
+          "package_name": "com.fahru.hrdreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319698827214-2sjb5fpa1am9jf6tvqp0qimgshsis73v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGvEj28ZtLYzdJvo432FGQ-uCP31RwCTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319698827214-2sjb5fpa1am9jf6tvqp0qimgshsis73v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HRD Reminder</string>
+    <string name="not_have_an_account">Don\'t have an account?\n<u><b>REGISTER HERE</b></u></string>
+    <string name="email_verification_false">Mohon verifikasi email anda terlebih dahulu, cek inbox email anda dan klik tautan verifikasi!</string>
+    <string name="double_back_pressed_warning">Tekan BACK sekali lagi untuk keluar!</string>
+    <string name="empty_field_error">Field tidak boleh kosong</string>
+    <string name="email_not_valid">Format email tidak valid</string>
+    <string name="please_wait">Mohon tunggu....</string>
+    <string name="email_not_verified_yet">Oops!\nSilahkan verifikasi alamat email anda, periksa spam atau hubungi developer jika anda tidak menerima email verifikasi.</string>
+    <string name="icon_for_priority_note">icon for priority note</string>
+    <string name="good_morning">Selamat Pagi ...</string>
+    <string name="good_afternoon">Selamat Siang ...</string>
+    <string name="good_evening">Selamat Sore ...</string>
+    <string name="good_night">Selamat Malam ...</string>
+    <string name="how_are_you">Hai, Apa Kabar ...</string>
+    <string name="warning_urgent_greaterthan_warning">Nilai pada URGENT tidak boleh lebih besar dari PERINGATAN</string>
+    <string name="about_description">Dikembangkan untuk membantu pekerjaan Bpk Opik, perbaikan bug atau penambahan fitur dapat menghubungi developer.\n\nCopyright © 2020 A-f. All Rights Reserved</string>
+</resources>
